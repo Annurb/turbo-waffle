@@ -1,2 +1,31 @@
 # turbo-waffle
 Um projeto para treinar programação
+
+# Configuração do ambiente de desenvolvimento
+Para instalar a versão correta do node, usamos o comando para retornar as versões disponíveis do node: 
+```bash
+nvm ls
+```
+Depois a versão atualizada foi lts/hydrogen:
+```bash
+nvm install lts/hydrogen
+```
+Ao executar:
+```bash
+node -v
+```
+A versão do lts é atualizada
+
+Porém, para colocar como padrão, já que ele não padroniza automaticamente:
+Ao executar:
+```bash
+nvm --help
+```
+Em exemplos, copiamos o código e adicionamos a versão padrão:
+```bash
+nvm alias default lts/hydrogen
+```
+E, após criar o arquivo .nvmrc, atualizamos com a versão e rodamos:
+```bash
+nvm install
+```
