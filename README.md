@@ -1,7 +1,7 @@
 # turbo-waffle
 Um projeto para treinar programação
 
-# Configuração do ambiente de desenvolvimento
+## Configuração do ambiente de desenvolvimento
 Para instalar a versão correta do node, usamos o comando para retornar as versões disponíveis do node: 
 ```bash
 nvm ls
@@ -28,4 +28,16 @@ nvm alias default lts/hydrogen
 E, após criar o arquivo .nvmrc, atualizamos com a versão e rodamos:
 ```bash
 nvm install
+```
+**Criação do package.json:**
+```bash
+npm init
+```
+**Instalação do next.js:**
+```bash
+npm install next@13.1.6
+```
+**Instalação do react.js:**
+```bash
+npm install react@18.2.0 react-dom@18.2.0 
 ```
