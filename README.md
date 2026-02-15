@@ -1,5 +1,5 @@
 # turbo-waffle
-Um projeto para treinar programação
+Um projeto full-stack para treinar programação
 
 ## Configuração do ambiente de desenvolvimento
 Para instalar a versão correta do node, usamos o comando para retornar as versões disponíveis do node: 
