@@ -41,3 +41,10 @@ npm install next@13.1.6
 ```bash
 npm install react@18.2.0 react-dom@18.2.0 
 ```
+
+## Deploy:
+O deploy inicial do site foi feito pelo Vercel através de sua conexão com o github ao logar.
+
+Link do site:
+
+https://turbo-waffle.vercel.app/
