@@ -68,3 +68,7 @@ O deploy inicial do site foi feito pelo Vercel através de sua conexão com o gi
 Link do site:
 
 https://turbo-waffle.vercel.app/
+
+## Arquitetura de software
+
+Por padrão, a arquitetura de software utilizada será a MVC (Model-View-Controller)
