@@ -72,3 +72,7 @@ https://turbo-waffle.vercel.app/
 ## Arquitetura de software
 
 Por padrão, a arquitetura de software utilizada será a MVC (Model-View-Controller)
+
+## Testes automatizados
+
+Os testes automatizados foram feitos usando a tecnologia Jest, escolhido com base em sua popularidade e facilidade de uso.
