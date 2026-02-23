@@ -1,0 +1,14 @@
+docker banco de dados local:
+docker ps --all
+docker logs turbo-waffle-database-1 //name do server
+docker compose up -d // pra ver se ta rodando o banco de dados 
+sudo apt update
+sudo apt install postgresql-client
+//atualiza porta:
+docker compose up -d --force-recreate
+psql --host=localhost --username=postgres --port=5432
+senha é local_password
+teste: SELECT 1 + 1; //retorno 2
+ \q
+docker compose down
+docker compose -f infra/compose.yaml up

@@ -76,3 +76,13 @@ Por padrão, a arquitetura de software utilizada será a MVC (Model-View-Control
 ## Testes automatizados
 
 Os testes automatizados foram feitos usando a tecnologia Jest, escolhido com base em sua popularidade e facilidade de uso.
+
+## Subindo Banco de Dados local
+
+Para subir o banco de dados local foi utilizado o Docker compose, através do arquivo compose.yaml e o seguinte site postgres e comando:
+
+https://hub.docker.com/_/postgres
+
+```bash
+docker compose up
+```
