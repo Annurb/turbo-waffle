@@ -26,4 +26,6 @@ docker compose -f infra/compose.yaml down
 docker compose -f infra/compose.yaml up -d
 npm run dev
 
+git:
+git mv .env .env.development // modifica nome do arquivo
 Fazendo o endpoint:
