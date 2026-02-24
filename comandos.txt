@@ -12,3 +12,12 @@ teste: SELECT 1 + 1; //retorno 2
  \q
 docker compose down
 docker compose -f infra/compose.yaml up
+
+modulo database.js:
+npm install pg@8.11.3
+
+docker:
+em bash:
+docker compose -f infra/compose.yaml up -d //pra rodar o banco de dados enquanto roda o npm run test:watch e o npm run dev
+
+https://node-postgres.com/ em compose.yaml
