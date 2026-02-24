@@ -21,3 +21,9 @@ em bash:
 docker compose -f infra/compose.yaml up -d //pra rodar o banco de dados enquanto roda o npm run test:watch e o npm run dev
 
 https://node-postgres.com/ em compose.yaml
+
+docker compose -f infra/compose.yaml down
+docker compose -f infra/compose.yaml up -d
+npm run dev
+
+Fazendo o endpoint:
