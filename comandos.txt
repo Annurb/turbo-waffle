@@ -29,3 +29,5 @@ npm run dev
 git:
 git mv .env .env.development // modifica nome do arquivo
 Fazendo o endpoint:
+
+Arquivo jsconfig.json serve para configurar absolute imports
