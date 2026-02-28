@@ -2,7 +2,16 @@
 
 Um projeto full-stack para treinar programação
 
-## Configuração do ambiente de desenvolvimento
+---
+### Menu:
+- [Configuração do ambiente de desenvolvimento](#config)
+- [Funcionalidades](#deploy)
+- [Arquitetura de software](#arq)
+- [Testes automatizados](#testes)
+- [Subindo banco de dados local](#banco-local)
+---
+
+## <a name="config"></a> Configuração do ambiente de desenvolvimento 
 
 Para instalar a versão correta do node, usamos o comando para retornar as versões disponíveis do node:
 
@@ -60,8 +69,8 @@ npm install next@13.1.6
 ```bash
 npm install react@18.2.0 react-dom@18.2.0
 ```
-
-## Deploy:
+---
+## <a name="deploy"></a>Deploy:
 
 O deploy inicial do site foi feito pelo Vercel através de sua conexão com o github ao logar.
 
@@ -69,15 +78,18 @@ Link do site:
 
 https://turbo-waffle.vercel.app/
 
-## Arquitetura de software
+---
+##  <a name="arq"></a>Arquitetura de software
 
 Por padrão, a arquitetura de software utilizada será a MVC (Model-View-Controller)
 
-## Testes automatizados
+---
+## <a name="testes"></a>Testes automatizados
 
 Os testes automatizados foram feitos usando a tecnologia Jest, escolhido com base em sua popularidade e facilidade de uso.
 
-## Subindo Banco de Dados local
+---
+## <a name="banco-local"></a>Subindo Banco de Dados local
 
 Para subir o banco de dados local foi utilizado o Docker compose, através do arquivo compose.yaml e o seguinte site postgres e comando:
 
