@@ -63,11 +63,15 @@ npm install react@18.2.0 react-dom@18.2.0
 
 ## Deploy:
 
-O deploy inicial do site foi feito pelo Vercel através de sua conexão com o github ao logar.
+O deploy do site foi feito pelo Vercel através de sua conexão com o github ao logar.
 
 Link do site:
 
 https://turbo-waffle.vercel.app/
+
+O site também foi hospedado em `.com.br` pelo período de um ano através do link:
+
+https://turbo-waffle.com.br/
 
 ## Arquitetura de software
 
@@ -86,3 +90,7 @@ https://hub.docker.com/_/postgres
 ```bash
 docker compose up
 ```
+
+## Subindo Banco de Produção
+
+A escolha do banco de dados de produção para esse projeto foi a Neon, um banco de dados relacional serveless, por sua disponibilidade e gratuidade. O ssl teve que ser configurado, e as variáveis de produção do banco atualizadas na Vercel.
