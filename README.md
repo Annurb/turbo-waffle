@@ -2,7 +2,13 @@
 
 Um projeto full-stack para treinar programação
 
-## Configuração do ambiente de desenvolvimento
+### Menu de Navegação
+
+- [Configuração do ambiente de desenvolvimento](## Configuração do ambiente de desenvolvimento)
+- [Funcionalidades](#funcionalidades)
+- [Como usar](#como-usar)
+
+## Configuração do ambiente de desenvolvimento <a name="introdução"></a>
 
 Para instalar a versão correta do node, usamos o comando para retornar as versões disponíveis do node:
 
@@ -90,7 +96,3 @@ https://hub.docker.com/_/postgres
 ```bash
 docker compose up
 ```
-
-## Subindo Banco de Produção
-
-A escolha do banco de dados de produção para esse projeto foi a Neon, um banco de dados relacional serveless, por sua disponibilidade e gratuidade. O ssl teve que ser configurado, e as variáveis de produção do banco atualizadas na Vercel.
