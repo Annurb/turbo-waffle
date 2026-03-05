@@ -114,6 +114,33 @@ https://hub.docker.com/_/postgres
 docker compose up
 ```
 
+---
+
 ## <a name="banco-producao"></a>Subindo Banco de Produção
 
 A escolha do banco de dados de produção para esse projeto foi a Neon, um banco de dados relacional serveless, por sua disponibilidade e gratuidade. O ssl teve que ser configurado, e as variáveis de produção do banco atualizadas na Vercel.
+
+### Migrations:
+
+O uso de migrations foi usado para aplicar alterações no schema do banco de dados de forma automática e segura.
+
+#### Arquivos de migração
+
+Define ordem e alterções que vão ser feitas.
+
+#### Framework de Migração
+
+Garantir que vai ser executado na ordem e uma única vez.
+O framework usado foi o node-pg-migrate, que executa focado no postgres e não em todos os bancos de dados, escolhendo foco ao invés de flexibilidade. Ele foi configurado através do site e códigos abaixo:
+
+https://www.npmjs.com/package/node-pg-migrate
+
+```bash
+npm install node-pg-migrate@6.2.2
+```
+
+Para se conectar ao banco pelo comando `migration:up`, o dotenv precisou ser instalado também:
+
+```bash
+npm install dotenv@16.4.4
+```
